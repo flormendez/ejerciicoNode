@@ -1,0 +1,27 @@
+{
+  "name": "ejercicionode",
+  "version": "1.0.0",
+  "description": "ejercicio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flormendez/ejerciicoNode.git"
+  },
+  "author": "Florencia Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flormendez/ejerciicoNode/issues"
+  },
+  "homepage": "https://github.com/flormendez/ejerciicoNode#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "nodemon": "^1.18.9"
+  }
+}
